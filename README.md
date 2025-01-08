@@ -83,3 +83,38 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+
+# Front Desk System
+
+The **Front Desk System** is a web-based application designed to manage patient queues and doctor appointments at a clinic. It allows front desk staff to efficiently handle patient flows, book appointments, and track their statuses in the clinic.
+
+## Features
+
+- **Doctor Profile Management**: Add, edit, or delete doctor profiles, including specialization, gender, location, and availability.
+- **Appointment Management**: Book, reschedule, or cancel appointments for patients.
+- **Queue Management**: Add walk-in patients to the queue, assign queue numbers, and track their status.
+- **Appointment Status Tracking**: Track and update appointment statuses (booked, completed, canceled).
+- **Pagination**: View doctors and appointments with pagination for better navigation.
+
+## Technology Stack
+
+- **Backend**: 
+  - **NestJS**: A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
+  - **PostgreSQL**: A relational database for storing data.
+  - **TypeORM**: ORM to manage database entities and migrations.
+  - **JWT Authentication**: Used for secure login and authorization of front desk staff.
+
+## Getting Started
+
+To get a local copy of the project up and running, follow these simple steps.
+
+### Prerequisites
+
+- **Node.js** (LTS version)
+- **PostgreSQL** installed and running
+- **NestJS CLI** (Optional but recommended)
+  
+  ```bash
+  npm install -g @nestjs/cli
